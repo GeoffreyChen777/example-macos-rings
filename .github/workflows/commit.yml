@@ -12,10 +12,10 @@ jobs:
       - name: "Checkout Project"
         uses: actions/checkout@v2
 
-      - name: "Select Latest Xcode 12 Stable"
-        uses: st3fan/xcode-select@main
-        with:
-          version: "13.2"
+      # - name: "Select Latest Xcode 12 Stable"
+      #   uses: st3fan/xcode-select@main
+      #   with:
+      #     version: "13.2"
 
       - name: "Import Certificate: Development"
         uses: devbotsxyz/import-signing-certificate@v1
